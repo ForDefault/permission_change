@@ -1,0 +1,7 @@
+[Nemo Action]
+Name=Permission Changes
+Comment=Debug what files or directories are passed
+Exec=/bin/bash -c '/home/$USER/.local/share/nemo/actions/make_executable_final.sh %F'
+Icon-Name=edit-select-all
+Selection=Any
+Extensions=any;
